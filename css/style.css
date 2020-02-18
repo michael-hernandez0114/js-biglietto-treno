@@ -5,15 +5,32 @@
 }
 
 body {
-    background-color: blue;
+    background-color: gray;
+    color: white;
 
 }
 
-#pwd-block {
+.border-left {
+    border-left: 3px solid white;
+}
+
+.border-top {
+    border-top: 3px solid white;
+}
+
+
+
+#ticket-block {
     display: flex;
     height: 100vh;
 }
 
-#pwd-block .block {
+#ticket-block .block {
     margin: auto;
+}
+
+.red:hover {
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
 }
