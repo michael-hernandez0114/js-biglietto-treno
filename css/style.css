@@ -1,0 +1,19 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+
+}
+
+#pwd-block {
+    display: flex;
+    height: 100vh;
+}
+
+#pwd-block .block {
+    margin: auto;
+}
